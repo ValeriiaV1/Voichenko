@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8" />
     <title>Main Page</title>
+    <link rel="stylesheet" href="style-new.css" />
 </head>
-<body style="background-color: #222; color: #efafda; margin: 0; font-family: Arial, sans-serif;">
+<body>
 
-    <table width="100%" height="100vh" cellspacing="0" cellpadding="10" style="table-layout: fixed;">
+    <table class="main-table">
         <tr>
             <!-- Sidebar -->
-            <td width="200" valign="top" style="border-right: 1px solid #efafda;">
+            <td class="sidebar">
                 <h3>Menu</h3>
-                <ul style="list-style-type:none; padding-left: 0;">
-                    <li><a href="pages/contact.html" style="color: #efafda; text-decoration: none;">Contact</a></li>
-                    <li><a href="pages/gallery.html" style="color: #efafda; text-decoration: none;">Gallery</a></li>
+                <ul class="menu-list">
+                    <li><a href="pages/contact.html" class="menu-link">Contact</a></li>
+                    <li><a href="pages/gallery.html" class="menu-link">Gallery</a></li>
                 </ul>
             </td>
 
             <!-- Main content -->
-            <td valign="middle" align="center">
-                <div>
+            <td class="content">
+                <div class="main-text">
                     <h1>Main Page</h1>
                     <p>Hello! My name is Valeriia. I’m glad you visited my website.</p>
                     <p>I am a 3rd year Biomedical Engineering student at 
-                        <a href="https://lpnu.ua/" target="_blank" style="color: #efafda; text-decoration: underline;">
+                        <a href="https://lpnu.ua/" target="_blank" class="uni-link">
                             Lviv Polytechnic National University
                         </a>.
                     </p>
@@ -38,5 +39,3 @@
 
 </body>
 </html>
-
-
